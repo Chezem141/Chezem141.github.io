@@ -7,13 +7,13 @@
 }
 
 html{
-    background-color: #26222d;
+    background-color: #69BD65;
 }
 
 #header {
     width: 100%;
     heaight: 120px;
-    background-color: #3d3848;
+    background-color: #96FF91;
     text-align: center;
 }
 
@@ -50,7 +50,7 @@ html{
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 10px;
-    background-color: #3d3848;
+    background-color: #96FF91;
     max-width: 960px;
     border-radius: 20px;
 }
@@ -65,7 +65,7 @@ html{
 #footer{
     width: auto;
     height: 80px;
-    background-color: #3d3848;
+    background-color: #96FF91;
 }
 
 #footer_sign{
@@ -76,9 +76,9 @@ html{
 }
 
 .even {
-    background-color: #26222d;
+    background-color: #69BD65;
 }
 
 .odd {
-    background-color: #3d3848;
+    background-color: #96FF91;
 }
