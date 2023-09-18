@@ -1,58 +1,58 @@
 * {
-  margin: 0;
-  color: #dfdfeb;
-  font-size: 14px;
-  line-height: 1.65em;
-  text-align: center;
+    margin: 0;
+    color: #dfdfeb;
+    font-size: 14px;
+    line-height: 1.65em;
+    text-align: center;
 }
 
 html{
-  background-color: #26222d;
+    background-color: #26222d;
 }
 
 #header {
-  width: 100%;
-  heaight: 120px;
-  background-color: #3d3848;
-  text-align: center;
+    width: 100%;
+    heaight: 120px;
+    background-color: #3d3848;
+    text-align: center;
 }
 
 #logo {
-  width: 120px;
-  height: 120px;
-  float: left;
-  padding-left: 20%;
-  padding-top: 20px;
+    width: 120px;
+    height: 120px;
+    float: left;
+    padding-left: 20%;
+    padding-top: 20px;
 }
 
 #siteName {
-  float: left;
-  text-align: center;
-  padding-left: 20px;
-  line-height: 120px;
+    float: left;
+    text-align: center;
+    padding-left: 20px;
+    line-height: 120px;
 }
 
 #ref1{
-  float: right;
-  padding-right: 20px;
-  line-height: 120px
+    float: right;
+    padding-right: 20px;
+    line-height: 120px
 }
 
 #ref2, #ref3{
-  float: right;
-  padding-right: 20px;
-  line-height: 120px
+    float: right;
+    padding-right: 20px;
+    line-height: 120px
 }
 
 
 #refs, #form, #table {
-  margin: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 10px;
-  background-color: #3d3848;
-  max-width: 960px;
-  border-radius: 20px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #3d3848;
+    max-width: 960px;
+    border-radius: 20px;
 }
 
 #table_1{
