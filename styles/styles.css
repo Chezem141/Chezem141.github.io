@@ -55,3 +55,31 @@ html{
   max-width: 960px;
   border-radius: 20px;
 }
+
+#table_1{
+    border-color: #fff;
+    border: 2px;
+    margin: auto;
+    width: 600px;
+}
+
+#footer{
+    width: auto;
+    height: 120px;
+    background-color: #3d3848;
+}
+
+#footer_sign{
+    float: right;
+    text-align: center;
+    padding-right: 10%;
+    line-height: 120px;
+}
+
+.even {
+    background-color: #26222d;
+}
+
+.odd {
+    background-color: #3d3848;
+}
