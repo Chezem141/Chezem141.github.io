@@ -38,3 +38,13 @@ html{
   padding-right: 20px;
   line-height: 120px
 }
+
+#refs, #form, #table {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #3d3848;
+  max-width: 960px;
+  border-radius: 20px;
+}
