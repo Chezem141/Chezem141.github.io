@@ -1,20 +1,20 @@
 * {
   margin: 0;
   padding: 0;
-  color: ;
+  color: white;
   font-size: 14px;
   line-height: 1.4em;
   text-align: center;
 }
 
 html{
-  background-color: #EEEEEE;
+  background-color: #26222d;
 }
 
 #header {
   width: 100%;
   heaight: 120px;
-  background-color: #DDDDDD;
+  background-color: #3d3848;
   text-align: center;
 }
 
