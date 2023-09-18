@@ -1,1 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 14px;
+  font-family: ;
+  line-height: 1.4em;
+  text-align: center;
+}
 
+html{
+  background-color: #eee;
+}
+
+#header {
+  width: 100%;
+  heaight: 120px;
+  background-color: #ddd;
+  text-align: center;
+}
+
+#logo {
+  width: 120px;
+  height: 120px;
+  float: left;
+  padding-left: 20%;
+  padding-top: 20px;
+}
+
+#siteName {
+  float: left;
+  text-align: center;
+  padding-left: 20px;
+  line-height: 120px;
+}
+
+#ref1, #ref2, #ref3{
+  float: right;
+  padding-right: 20px;
+  line-height: 120px
+}
