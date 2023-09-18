@@ -33,11 +33,18 @@ html{
   line-height: 120px;
 }
 
-#ref1, #ref2, #ref3{
+#ref1{
   float: right;
   padding-right: 20px;
   line-height: 120px
 }
+
+#ref2, #ref3{
+  float: right;
+  padding-right: 20px;
+  line-height: 120px
+}
+
 
 #refs, #form, #table {
   margin: auto;
