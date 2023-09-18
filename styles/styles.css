@@ -70,7 +70,7 @@ html{
 }
 
 #footer_sign{
-    float: right;
+    float: left;
     text-align: center;
     padding-right: 10%;
     line-height: 120px;
