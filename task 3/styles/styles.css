@@ -45,7 +45,7 @@ html{
     margin-bottom: 20px;
     padding: 10px;
     background-color: #69BD65;
-    max-width: 960px;
+    max-width: 100%;
     border-radius: 20px;
 }
 
@@ -142,5 +142,15 @@ html{
         display: inline;
         float: right;
         flex-direction: row;
+    }
+
+    #refs, #form, #table {
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 10px;
+        background-color: #69BD65;
+        max-width: 960px;
+        border-radius: 20px;
     }
 }
