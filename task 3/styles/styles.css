@@ -29,10 +29,7 @@ html{
 }
 
 #siteName {
-    float: left;
-    text-align: center;
-    padding-left: 20px;
-    line-height: 120px;
+    display: inline;
 }
 
 #ref1, #ref2, #ref3{
@@ -55,7 +52,6 @@ html{
     border-color: #fff;
     border: 2px;
     margin: auto;
-    width: 600px;
 }
 
 #footer{
