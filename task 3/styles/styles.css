@@ -10,7 +10,6 @@ html{
 }
 
 #header {
-    width: 100%;
     height: 120px;
     background-color: #69BD65;
     text-align: center;
@@ -39,7 +38,6 @@ html{
 #ref1, #ref2, #ref3{
     float: right;
     padding-right: 20px;
-    line-height: 120px
 }
 
 
@@ -146,9 +144,5 @@ html{
     .nav-links {
         display: inline;
         float: right;
-    }
-
-    .links-menu {
-        display: inline;
     }
 }
