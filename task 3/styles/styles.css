@@ -108,6 +108,14 @@ html{
     order: 3;
 }
 
+.header-1 {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0vh;
+}
+
 @media screen and (min-width: 960px) {
 
     .flex-links {
