@@ -97,11 +97,11 @@ html{
 }
 
 .flex-links {
-    order: 1;
+    order: 2;
 }
 
 .flex-table {
-    order: 2;
+    order: 1;
 }
 
 .flex-form {
@@ -116,14 +116,14 @@ html{
     margin-bottom: 0vh;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 800px) {
 
     .flex-links {
-        order: 2;
+        order: 1;
     }
 
     .flex-table {
-        order: 1;
+        order: 2;
     }
 
     .flex-form {
