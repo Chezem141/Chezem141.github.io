@@ -141,5 +141,6 @@ html{
     .nav-links {
         display: inline;
         float: right;
+        flex-direction: row;
     }
 }
