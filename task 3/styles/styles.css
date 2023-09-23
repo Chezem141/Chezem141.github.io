@@ -129,4 +129,9 @@ html{
     .flex-form {
         order: 3;
     }
+
+    .nav-links {
+        display: inline;
+        float: right;
+    }
 }
