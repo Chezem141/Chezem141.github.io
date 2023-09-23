@@ -14,6 +14,11 @@ html{
     height: 120px;
     background-color: #69BD65;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    justify-content: center;
+    padding: 2vw;
 }
 
 #logo {
