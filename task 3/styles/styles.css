@@ -116,7 +116,7 @@ html{
     margin-bottom: 0vh;
 }
 
-links-menu li{
+.links-menu li{
     display: block;
     list-style-type: none;
 }
