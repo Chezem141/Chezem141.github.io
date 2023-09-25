@@ -155,8 +155,8 @@ html{
     }
 
     .nav-links {
+        display: inline;
         float: right;
-        flex-direction: row;
     }
 
     .links menu li{
