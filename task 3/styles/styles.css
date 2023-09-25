@@ -9,7 +9,7 @@ html{
     background-color: #96FF91;
 }
 
-#header {
+.header {
     height: 120px;
     background-color: #69BD65;
     text-align: center;
@@ -123,6 +123,12 @@ html{
     .header-1 {
         all: unset;
         width: 100vw;
+    }
+    
+    .header {
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
     }
 
     .flex-links {
