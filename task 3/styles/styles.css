@@ -163,10 +163,4 @@ html{
         border-radius: 20px;
         padding: 2%;
     }
-
-    #header {
-        flex-wrap: wrap;
-        flex-direction: row;
-        align-items: center;
-    }
 }
