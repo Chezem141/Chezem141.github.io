@@ -10,7 +10,7 @@ html{
 }
 
 #header {
-    height: 200px;
+    height: 120px;
     background-color: #69BD65;
     text-align: center;
     display: flex;
@@ -109,7 +109,7 @@ html{
 }
 
 .header-1 {
-    width: 80vw;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -123,7 +123,6 @@ html{
 
 .nav-links{
     background-color: #69BD65;
-    margin: 2%;
     padding: 2%;
     width: 100vw;
     display: flex;
@@ -134,6 +133,7 @@ html{
 @media screen and (min-width: 800px) {
     .header-1 {
         all: unset;
+        width: 100vw;
     }
 
     .flex-links {
@@ -178,16 +178,5 @@ html{
         width: 85vw;
         border-radius: 20px;
         padding: 2%;
-    }
-
-    #header {
-        height: 100px;
-        background-color: #69BD65;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        min-height: 100px;
-        justify-content: space-between;
-        padding: 2vw;
     }
 }
