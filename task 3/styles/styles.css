@@ -10,7 +10,7 @@ html{
 }
 
 #header {
-    height: 120px;
+    height: 200px;
     background-color: #69BD65;
     text-align: center;
     display: flex;
@@ -178,5 +178,16 @@ html{
         width: 85vw;
         border-radius: 20px;
         padding: 2%;
+    }
+
+    #header {
+        height: 100px;
+        background-color: #69BD65;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        min-height: 100px;
+        justify-content: space-between;
+        padding: 2vw;
     }
 }
