@@ -39,17 +39,6 @@ html{
     padding-right: 20px;
 }
 
-
-#refs, #form, #table {
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 10px;
-    background-color: #69BD65;
-    max-width: 100%;
-    border-radius: 20px;
-}
-
 #table_1{
     border-color: #fff;
     border: 2px;
@@ -155,16 +144,6 @@ html{
 
     .links menu li{
         display: inline;
-    }
-
-    #refs, #form, #table {
-        margin: auto;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        padding: 10px;
-        background-color: #69BD65;
-        max-width: 960px;
-        border-radius: 20px;
     }
 
     .content-block {
