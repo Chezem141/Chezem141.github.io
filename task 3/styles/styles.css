@@ -144,6 +144,10 @@ html{
         flex-direction: row;
     }
 
+    .links menu li{
+        display: inline;
+    }
+
     #refs, #form, #table {
         margin: auto;
         margin-top: 20px;
