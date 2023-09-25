@@ -121,6 +121,12 @@ html{
     list-style-type: none;
 }
 
+.nav-links{
+    background-color: #69BD65;
+    margin: 10px;
+    padding: 10px;
+}
+
 @media screen and (min-width: 800px) {
     .header-1 {
         all: unset;
