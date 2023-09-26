@@ -83,6 +83,7 @@ html{
     width: 100vw;
     border-radius: 20px;
     padding: 2%;
+    margin: 10px;
 }
 
 .flex-links {
@@ -154,5 +155,6 @@ html{
         width: 85vw;
         border-radius: 20px;
         padding: 2%;
+        margin: 10px;
     }
 }
