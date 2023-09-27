@@ -39,6 +39,14 @@ html{
     padding-right: 20px;
 }
 
+#refs, #form, #table {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    max-width: 960px;
+}
+
 #table_1{
     border-color: #fff;
     border: 2px;
