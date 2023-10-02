@@ -74,13 +74,7 @@ html{
 }
 
 .flex-box {
-    display: flex;
-    flex-direction: column;
-    margin-top: 3vh;
-    margin-bottom: 3vh;
-
     gap: 3vh;
-    align-items: center;
 }
 
 .content-block {
