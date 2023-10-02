@@ -5,10 +5,6 @@
     line-height: 1.65em;
 }
 
-html{
-    background-color: #96FF91;
-}
-
 .header {
     background-color: #69BD65;
 }
@@ -91,14 +87,6 @@ html{
 
 .flex-form {
     order: 3;
-}
-
-.header-1 {
-    width: 100vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 0vh;
 }
 
 .links-menu li{
