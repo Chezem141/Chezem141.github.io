@@ -1,1 +1,172 @@
+* {
+    margin: 0;
+    color: #1D1D1D;
+    font-size: 14px;
+    line-height: 1.65em;
+}
+
+html{
+    background-color: #96FF91;
+}
+
+#header {
+    height: 120px;
+    background-color: #69BD65;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    justify-content: space-between;
+    padding: 2vw;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding-left: 5%;
+    padding-top: 10px;
+}
+
+#siteName {
+    font-size: 18px;
+    display: inline;
+    padding-right: 20px;
+}
+
+#ref1, #ref2, #ref3{
+    float: right;
+    padding-right: 20px;
+}
+
+#refs, #form, #table {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    max-width: 960px;
+}
+
+#table_1{
+    border-color: #fff;
+    border: 2px;
+    margin: auto;
+}
+
+.footer{
+    width: 100vw;
+    height: 80px;
+    background-color: #69BD65;
+}
+
+#footer_sign{
+    float: left;
+    padding-left: 2vw;
+    line-height: 120px;
+}
+
+.even {
+    background-color: #96FF91;
+}
+
+.odd {
+    background-color: #69BD65;
+}
+
+.flex-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+
+    gap: 3vh;
+    align-items: center;
+}
+
+.content-block {
+    background-color: #69BD65;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    border-radius: 20px;
+    padding: 2%;
+    margin: 20px;
+}
+
+.flex-links {
+    order: 2;
+}
+
+.flex-table {
+    order: 1;
+}
+
+.flex-form {
+    order: 3;
+}
+
+.header-1 {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0vh;
+}
+
+.links-menu li{
+    display: block;
+    list-style-type: none;
+}
+
+.nav-links{
+    background-color: #69BD65;
+    padding: 2%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width: 800px) {
+    .header-1 {
+        all: unset;
+        width: 100vw;
+    }
+
+    .flex-links {
+        order: 1;
+    }
+
+    .flex-table {
+        order: 2;
+    }
+
+    .flex-form {
+        order: 3;
+    }
+
+    .nav-links {
+        display: inline;
+        float: right;
+    }
+
+    .links menu li{
+        display: inline;
+    }
+
+    .content-block {
+        background-color: #69BD65;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80vw;
+        border-radius: 20px;
+        padding: 2%;
+        margin: 20px;
+    }
+    .flex-box {
+    gap: 0vh;
+}
+}
 
