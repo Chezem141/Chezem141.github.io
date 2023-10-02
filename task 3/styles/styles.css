@@ -166,6 +166,5 @@ html{
         margin: 20px;
     }
     .flex-box {
-    gap: 0vh;
-}
-}
+        gap: 0vh;
+    }
