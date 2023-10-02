@@ -105,6 +105,7 @@
 
 @media screen and (min-width: 800px) {
     .header-1 {
+        justify-content: space-between;
         all: unset;
         width: 100vw;
     }
