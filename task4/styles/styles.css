@@ -30,6 +30,11 @@
     list-style-type: none;
 }
 
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
 .header-1 {
     justify-content: space-between;
 }
