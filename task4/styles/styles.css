@@ -34,6 +34,16 @@
     justify-content: space-between;
 }
 
+.nav-links{
+    display: flex;
+    flex-direction: column;
+    allign-items: center;
+}
+
+.odd{
+    background-color: #96FF91;
+}
+
 @media screen and (min-width: 800px) {
     .header-1 {
         all: unset;
