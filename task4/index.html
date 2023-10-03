@@ -12,29 +12,29 @@
     </head>
     <body>
         <div class="d-flex flex-column align-items-center mb-3 mt-3 flex-box">
-            <header class="header d-flex flex-column align-items-center justify-content-between h-120 min-h-100 p-3">   
+            <header class="d-flex flex-column align-items-center justify-content-between h-120 min-h-100 p-3 bg-success bg-opacity-75">   
                 <div class="d-flex align-items-center mb-0 vw-100 header-1">
-                    <img src="image.jpg" id="logo" alt="имаге"> 
-                    <a id="siteName">Сайт Ермолаева Павла</a>
+                    <img src="image.jpg" class="vw-90 vh-90 float-start p-3" alt="имаге"> 
+                    <a class="d-inline fs-5 px-2">Сайт Ермолаева Павла</a>
                 </div>
             </header>
-            <nav class="nav-links">
+            <nav class="d-flex flex-column align-items-center p-2 vw-100 nav-links bg-success bg-opacity-75">
                 <ul class="links-menu">
                     <li>
-                        <a href="#refs" id="ref1">Ссылки</a>
+                        <a href="#refs" class="m-auto my-2 p-1 mw-85 float-end px-20">Ссылки</a>
                     </li>
                     <li>
-                        <a href="#form" id="ref2">Форма</a>
+                        <a href="#form" class="m-auto my-2 p-1 mw-85 float-end px-20">Форма</a>
                     </li>
                     <li>
-                        <a href="#table" id="ref3">Таблица</a>
+                        <a href="#table" class="m-auto my-2 p-1 mw-85 float-end px-20">Таблица</a>
                     </li>
                 </ul>
             </nav>
             
 
         
-            <div class="content-block flex-links">
+            <div class="d-flex flex-column align-items-center vw-80 rounded-5 p-2 m-2 bg-success bg-opacity-75 content-block flex-links">
                 <nav id="refs">
                     <ul>
                         <li>
@@ -112,35 +112,35 @@
                 </nav>
             </div>
 
-            <div class="content-block flex-table">
+            <div class="d-flex flex-column align-items-center vw-80 rounded-5 p-2 m-2 bg-success bg-opacity-75 content-block flex-table">
                 <nav id="table">
-                    <table id="table_1">
-                        <tr class="odd">
+                    <table class="border border-1 m-auto">
+                        <tr class="bg-success bg-opacity-75">
                             <th>1 столбец</th> <th>2 столбец</th> <th>3 столбец</th> <th>4 столбец</th>
                         </tr>
-                        <tr class="even">
+                        <tr class="bg-success bg-opacity-50">
                             <td>11</td><td>12</td><td>13</td><td>14</td>
                         </tr>
-                        <tr class="odd">
+                        <tr class="bg-success bg-opacity-75">
                             <td colspan="4">21, 22, 23 и 24 объединённые</td>
                         </tr>
-                        <tr class="even">
+                        <tr class="bg-success bg-opacity-50">
                             <td>31</td><td>32</td><td>33</td><td>34</td>
                         </tr>
-                        <tr class="odd">
+                        <tr class="bg-success bg-opacity-75">
                             <td>41</td><td>42</td><td>43</td><td>44</td>
                         </tr>
-                        <tr class="even">
+                        <tr class="bg-success bg-opacity-50">
                             <td>51</td><td>52</td><td>53</td><td>54</td>
                         </tr>
-                         <tr class="odd">
+                         <tr class="bg-success bg-opacity-75">
                             <td>61</td><td>62</td><td>63</td><td>64</td>
                         </tr>
                     </table>
                 </nav> 
             </div>
 
-            <div class="content-block flex-form">
+            <div class="d-flex flex-column align-items-center vw-80 rounded-5 p-2 m-2 bg-success bg-opacity-75 content-block flex-form">
                 <nav id="form">
                     <h1>Форма HTML</h1>
                     
@@ -216,8 +216,8 @@
         
         <p id="Fragment">На что-то же надо ссылаться :3 </p>
         
-        <footer class="footer">
-            <a id="footer_sign">Ермолаев П.А.</a> 
+        <footer class="vw-100 bg-success bg-opacity-75 vh-1">
+            <a class="float-start px-2">Ермолаев П.А.</a> 
         </footer>
 
        
