@@ -71,8 +71,9 @@
         float: right;
     }
 
-    .links menu li{
+    .links-menu li{
         display: inline;
+        float: right;
     }
 
     .flex-box {
