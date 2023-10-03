@@ -5,76 +5,12 @@
     line-height: 1.65em;
 }
 
-.header {
-    background-color: #69BD65;
-}
-
-#logo {
-    width: 100px;
-    height: 100px;
-    float: left;
-    padding-left: 5%;
-    padding-top: 10px;
-}
-
-#siteName {
-    font-size: 18px;
-    display: inline;
-    padding-right: 20px;
-}
-
-#ref1, #ref2, #ref3{
-    float: right;
-    padding-right: 20px;
-}
-
-#refs, #form, #table {
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 10px;
-    max-width: 960px;
-}
-
-#table_1{
-    border-color: #fff;
-    border: 2px;
-    margin: auto;
-}
-
-.footer{
-    width: 100vw;
-    height: 80px;
-    background-color: #69BD65;
-}
-
-#footer_sign{
-    float: left;
-    padding-left: 2vw;
-    line-height: 120px;
-}
-
-.even {
-    background-color: #96FF91;
-}
-
-.odd {
-    background-color: #69BD65;
-}
-
 .flex-box {
     gap: 3vh;
 }
 
 .content-block {
-    background-color: #69BD65;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     width: 100vw;
-    border-radius: 20px;
-    padding: 2%;
-    margin: 20px;
 }
 
 .flex-links {
@@ -92,15 +28,6 @@
 .links-menu li{
     display: block;
     list-style-type: none;
-}
-
-.nav-links{
-    background-color: #69BD65;
-    padding: 2%;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .header-1 {
@@ -133,16 +60,6 @@
         display: inline;
     }
 
-    .content-block {
-        background-color: #69BD65;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 80vw;
-        border-radius: 20px;
-        padding: 2%;
-        margin: 20px;
-    }
     .flex-box {
         gap: 0vh;
     }
