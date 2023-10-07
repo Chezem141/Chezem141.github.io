@@ -13,7 +13,7 @@ function setCalc(value) {
 
 function getCalc(count, currentEl) {
     if(inputCheck(count))
-        return "Стоимость: " + String(prices[currentEl] * Number(count));
+        return "Нужно денек: " + String(prices[currentEl] * Number(count));
     return "Недопустимое значение!";
 };
 
