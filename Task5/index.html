@@ -1,1 +1,30 @@
-
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>5</title>
+</head>
+<body>
+    <main>
+        <ul>
+            <li>2jz-gte - 3000000 р.</li>
+            <li>Полумёртвая бмв - 10000 р.</li>
+            <li>40-летняя советская гитара без первой струны - 150 р.</li>
+            <li>Солнце - 800000000 р.</li>
+	    <li>Сухарики 3 корочки - 13 р.</li>
+        </ul>
+        <label for="count">Количество товара:</label>
+        <input id="count" type="text" name="product_amount">
+        <label for="choice">Выберите товар:</label>
+        <select name="choice" id="choice">
+            <option value="2jz-gte">2jz-gte</option>
+            <option value="Полумёртвая бмв">Полумёртвая бмв</option>
+            <option value="40-летняя советская гитара без первой струны">
+		40-летняя советская гитара без первой струны</option>
+            <option value="Солнце">Солнце</option>
+	    <option value="Сухарики 3 корочки">Сухарики 3 корочки</option>
+        </select>
+        <button id="calculate">Просчитать</button>
+        <div id="result">Стоимость: </div>
+    <script src="calc.js" defer></script>
+</body>
+</html>
