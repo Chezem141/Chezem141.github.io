@@ -1,9 +1,36 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <title>5 </title>
+    <title>6</title>
 </head>
 <body>
+    <h1>Выбор услуги</h1>
+    <ul>
+        <li>Почесать спину - 185р.</li>
+	<li>Рассказать анекдот - 50р. / 55р.</li> <!-- Выбор: про Штирлица, или про улитку в баре-->
+	<li>Дать боком - 500р.</li> <!-- Не в столб(по возможности)-->
+    </ul>
+    <label for="service_count">Сколько раз:</label>
+    <input id="service_count" type="text">
+    <input name="r" type="radio" value="Почесать спину">Почесать спину
+    <input name="r" type="radio" value="Рассказать анекдот">Рассказать анекдот
+    <input name="r" type="radio" value="Дать боком">Дать боком
+    <div id="anecdote_choise">
+        <label for="anecdote">Про кого будешь смеяца:</label>
+        <select name="anecdote" id="anecdote">
+            <option value="Штирлиц" selected>Про Штирлица</option>
+            <option value="Улитка">Про улитку</option>
+        </select>
+    </div>
+    <div id="check">
+	<label id="check_label" value="Не в столб">Не в столб(по возможности)</label>
+        <input type="checkbox" id="checkbox">
+    </div>
+    <div id="final_price">
+        0
+    </div>
+
+    <h1>Выбор товара</h1>
     <ul>
         <li>2jz-gte - 3000000 р.</li>
         <li>Полумёртвая бмв - 10000 р.</li>
