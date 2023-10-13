@@ -34,9 +34,11 @@ function priceCheck() {
     let sel = document.getElementById("anecdote_choise");
     sel.style.display = (radio_val == "Рассказать анекдот") ? "block" : "none";
     let selection = document.getElementById("anecdote");
+    VALUE += prices_add[selection.value];
 
     let check = document.getElementById("check");
     check.style.display = (radio_val == "Дать боком" ? "block" : "none");
+    document.getElementById("checkbox").checked ? VALUE += 200 : null; 
 
     let input = document.getElementById("service_count");
     (input.value !== undefined) ?
