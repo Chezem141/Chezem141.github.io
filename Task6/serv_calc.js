@@ -46,3 +46,43 @@ function priceCheck() {
 
     document.getElementById("final_price").innerHTML = `${VALUE} Рублей`;
 }
+
+function anec() {
+    document.getElementById("anecdote").value = "Про Штирлица";
+    document.getElementById("checkbox").checked = false;
+}
+
+window.addEventListener("DOMContentLoaded", function(event) {
+    console.log("DOM loaded");
+    anec();
+    
+    let radios = document.getElementsByName("r");
+    let additionals = document.getElementById("anecdote_choise");
+    let additional_select = document.getElementById("anecdote");
+    let check = document.getElementById("check");
+    let input = document.getElementById("service_count");
+    
+    additional_select.value="Про Штирлица";
+    additionals.style.display = "none";
+    check.style.display = "none";
+
+    input.addEventListener("input", () => {
+        priceCheck();
+    })
+
+    additional_select.addEventListener("change", function(event) {
+        priceCheck();
+    });
+
+    radios.forEach(function(radio) {
+        radio.checked = false;
+        radio.addEventListener("change", function(event) {
+            anec();
+            priceCheck();
+        })
+    });
+
+    document.getElementById("checkbox").addEventListener("change", function(event) {
+        priceCheck();
+    });
+});
