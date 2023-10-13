@@ -52,7 +52,7 @@ function anec() {
     document.getElementById("checkbox").checked = false;
 }
 
-window.addEventListener("DOMContentLoaded", function(event) {
+document‎.addEventListener("DOMContentLoaded", function(event) {
     console.log("DOM loaded");
     anec();
     
