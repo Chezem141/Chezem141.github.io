@@ -51,7 +51,7 @@ function anec() {
     document.getElementById("checkbox").checked = false;
 }
 
-document‎.addEventListener("DOMContentLoaded", function(event) {
+document‎.addEventListener("DOMContentLoaded", (event) => {
     console.log("DOM loaded");
     anec();
     
