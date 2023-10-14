@@ -1,1 +1,16 @@
+body {
+    background-color: #5e7a7a;
+    padding: 7vb;
 
+}
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+}
+
+.images img {
+    width: 400px;
+    height: 500px;
+    margin: auto;
+}
