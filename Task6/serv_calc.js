@@ -5,13 +5,15 @@ function updatePrice() {
     let price = 0;
     let prices = getPrices();
     let priceIndex = parseInt(select.value) - 1;
+    let count = document.getElementById("amount");
     if (priceIndex >= 0) {
       price = prices.prodTypes[priceIndex];
     }
     
+    /*
     let radioDiv = document.getElementById("radios");
     radioDiv.style.display = (select.value == "3" ? "block" : "none");
-    
+    */
     let radios = document.getElementsByName("prodOptions");
     radios.forEach(function(radio) {
       if (radio.checked) {
@@ -22,9 +24,10 @@ function updatePrice() {
       }
     });
   
+    /*
     let checkDiv = document.getElementById("checkboxes");
     checkDiv.style.display = (select.value == "3" ? "none" : "block");
-  
+    */
     let checkboxes = document.querySelectorAll("#checkboxes input");
     checkboxes.forEach(function(checkbox) {
       if (checkbox.checked) {
@@ -36,10 +39,11 @@ function updatePrice() {
     });
     
     let prodPrice = document.getElementById("prodPrice");
+    prodPrice *= amount.value;
     prodPrice.innerHTML = price + " рублей";
   }
   
-  function getPrices() {
+function getPrices() {
     return {
       prodTypes: [100, 200, 150],
       prodOptions: {
@@ -51,15 +55,15 @@ function updatePrice() {
         prop2: 2,
       }
     };
-  }
+}
   
-  window.addEventListener('DOMContentLoaded', function (event) {
+window.addEventListener('DOMContentLoaded', function (event) {
  
-    let radioDiv = document.getElementById("radios");
-    radioDiv.style.display = "none";
-
-    let checkDiv = document.getElementById("checkboxes");
-    checkDiv.style.display = "none";
+    prodType.addEventListener("click", function (event){
+        radios.style.display = (prodType.value === "2" ? "block" : "none");
+        checkboxes.style.display = (prodType.value === "3" ? "block" : "none");
+        updatePrice();
+    });
     
     let s = document.getElementsByName("prodType");
     let select = s[0];
@@ -88,18 +92,12 @@ function updatePrice() {
         updatePrice();
       });
     });
-  
-    updatePrice();
-  });
-  
-/*const prices = {
-    "Почесать спину": 185,
-    "Рассказать анекдот": 50,
-    "Дать боком": 500
-};
 
-const prices_add = {
-    "Про Штирлица": 0,
-    "Про улитку": 5
-};
-*/
+    amount.addEventListener("change", function(){
+        let number = amount.value;
+        let regex = /^[0-9]+$/;
+        if (number.match(regex) === null) { alert("Недопустимые символы в поле"); }
+        else { updatePrice(); }
+    });
+    updatePrice();
+});
