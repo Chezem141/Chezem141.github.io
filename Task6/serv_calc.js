@@ -10,7 +10,7 @@ function updatePrice() {
     }
     
     let radioDiv = document.getElementById("radios");
-    radioDiv.style.display = (select.value == "4" ? "block" : "none");
+    radioDiv.style.display = (select.value == "3" ? "block" : "none");
     
     let radios = document.getElementsByName("prodOptions");
     radios.forEach(function(radio) {
@@ -23,7 +23,7 @@ function updatePrice() {
     });
   
     let checkDiv = document.getElementById("checkboxes");
-    checkDiv.style.display = (select.value == "3" ? "none" : "block");
+    checkDiv.style.display = (select.value == "2" ? "none" : "block");
   
     let checkboxes = document.querySelectorAll("#checkboxes input");
     checkboxes.forEach(function(checkbox) {
