@@ -23,7 +23,7 @@ function updatePrice() {
     });
   
     let checkDiv = document.getElementById("checkboxes");
-    checkDiv.style.display = (select.value == "2" ? "none" : "block");
+    checkDiv.style.display = (select.value == "3" ? "none" : "block");
   
     let checkboxes = document.querySelectorAll("#checkboxes input");
     checkboxes.forEach(function(checkbox) {
