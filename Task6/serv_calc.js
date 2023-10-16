@@ -1,5 +1,3 @@
-let count = document.getElementById("amount");
-
 function updatePrice() {
 
   let s = document.getElementsByName("prodType");
@@ -38,7 +36,7 @@ function updatePrice() {
   });
   
   let prodPrice = document.getElementById("prodPrice");
-  prodPrice *= count.value;
+  prodPrice *= amount.value;
   prodPrice.innerHTML = price + " рублей";
 }
 
@@ -92,8 +90,8 @@ window.addEventListener('DOMContentLoaded', function (event) {
     });
   });
     
-  count.addEventListener("change", function(){
-    let number = count.value;
+  amount.addEventListener("change", function(){
+    let number = amount.value;
     let regex = /^[0-9]+$/;
     if (number.match(regex) === null) { alert("Недопустимые символы в поле"); }
     else { updatePrice(); }
