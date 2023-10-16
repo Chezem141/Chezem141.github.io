@@ -1,7 +1,6 @@
 function updatePrice() {
 
-  let s = document.getElementsByName("prodType");
-  let select = s[0];
+  let select = document.getElementsByName("prodType");
   let price = 0;
   let prices = getPrices();
   let priceIndex = parseInt(select.value) - 1;
