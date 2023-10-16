@@ -1,6 +1,7 @@
 function updatePrice() {
 
-  let select = document.getElementsByName("prodType");
+  let s = document.getElementsByName("prodType");
+  let select = s[0];
   let price = 0;
   let prices = getPrices();
   let priceIndex = parseInt(select.value) - 1;
@@ -9,7 +10,7 @@ function updatePrice() {
   }
   
   let radioDiv = document.getElementById("radios");
-  radioDiv.style.display = (select.value == "2" ? "block" : "none");
+  radioDiv.style.display = (select.value == "3" ? "block" : "none");
   
   let radios = document.getElementsByName("prodOptions");
   radios.forEach(function(radio) {
@@ -22,7 +23,7 @@ function updatePrice() {
   });
 
   let checkDiv = document.getElementById("checkboxes");
-  checkDiv.style.display = (select.value == "3" ? "block" : "none");
+  checkDiv.style.display = (select.value == "3" ? "none" : "block");
 
   let checkboxes = document.querySelectorAll("#checkboxes input");
   checkboxes.forEach(function(checkbox) {
@@ -35,7 +36,6 @@ function updatePrice() {
   });
   
   let prodPrice = document.getElementById("prodPrice");
-  prodPrice *= amount.value;
   prodPrice.innerHTML = price + " рублей";
 }
 
@@ -57,13 +57,10 @@ window.addEventListener('DOMContentLoaded', function (event) {
 
   let radioDiv = document.getElementById("radios");
   radioDiv.style.display = "none";
-    
-  let checkDiv = document.getElementById("checkboxes‎");
-  checkDiv.style.display = "none";
   
   let s = document.getElementsByName("prodType");
   let select = s[0];
-    
+  // Назначаем обработчик на изменение select.
   select.addEventListener("change", function(event) {
     let target = event.target;
     console.log(target.value);
@@ -78,7 +75,7 @@ window.addEventListener('DOMContentLoaded', function (event) {
       updatePrice();
     });
   });
-
+ 
   let checkboxes = document.querySelectorAll("#checkboxes input");
   checkboxes.forEach(function(checkbox) {
     checkbox.addEventListener("change", function(event) {
@@ -88,14 +85,6 @@ window.addEventListener('DOMContentLoaded', function (event) {
       updatePrice();
     });
   });
-    
-  amount.addEventListener("change", function(){
-    let number = amount.value;
-    let regex = /^[0-9]+$/;
-    if (number.match(regex) === null) { alert("Недопустимые символы в поле"); }
-    else { updatePrice(); }
-  });
-   
 
   updatePrice();
 });
