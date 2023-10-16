@@ -10,7 +10,7 @@ function updatePrice() {
   }
   
   let radioDiv = document.getElementById("radios");
-  radioDiv.style.display = (select.value == "2" ? "block" : "none");
+  radioDiv.style.display = (select.value === "2" ? "block" : "none");
   
   let radios = document.getElementsByName("prodOptions");
   radios.forEach(function(radio) {
@@ -23,7 +23,7 @@ function updatePrice() {
   });
 
   let checkDiv = document.getElementById("checkboxes");
-  checkDiv.style.display = (select.value == "3" ? "none" : "block");
+  checkDiv.style.display = (select.value === "3" ? "block" : "none");
 
   let checkboxes = document.querySelectorAll("#checkboxes input");
   checkboxes.forEach(function(checkbox) {
@@ -60,7 +60,7 @@ window.addEventListener('DOMContentLoaded', function (event) {
   
   let s = document.getElementsByName("prodType");
   let select = s[0];
-  // Назначаем обработчик на изменение select.
+  
   select.addEventListener("change", function(event) {
     let target = event.target;
     console.log(target.value);
