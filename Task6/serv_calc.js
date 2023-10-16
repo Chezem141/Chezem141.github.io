@@ -57,7 +57,7 @@ function getPrices() {
   
 window.addEventListener('DOMContentLoaded', function (event) {
 
-    let prodType = document.getElementById("prodType");
+    let prodType = document.getElementByName("prodType");
     
     prodType.addEventListener("click", function (event){
         radios.style.display = (prodType.value === "2" ? "block" : "none");
