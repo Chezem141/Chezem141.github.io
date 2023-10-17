@@ -35,8 +35,8 @@ function updatePrice() {
     }
   });
 
-  let prodPrice = document.getElementById("prodPrice");
-  prodPrice *= amount.value;;
+  //let prodPrice = document.getElementById("prodPrice");
+  price *= amount.value;;
   prodPrice.innerHTML = price + " рублей";
 }
 
@@ -88,10 +88,11 @@ window.addEventListener('DOMContentLoaded', function (event) {
   });
 
   amount.addEventListener("change", function(){
-  let number = amount.value;
-  let regex = /^[0-9]+$/;
-  if (number.match(regex) === null) { alert("Недопустимое значение"); }
-  else { updatePrice(); }
+    let number = amount.value;
+    let regex = /^[0-9]+$/;
+    if (number.match(regex) === null) { alert("Недопустимое значение"); }
+    else { updatePrice(); }
+  });
 
   updatePrice();
 });
