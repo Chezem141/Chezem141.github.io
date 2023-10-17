@@ -55,9 +55,6 @@ function getPrices() {
 }
 
 window.addEventListener('DOMContentLoaded', function (event) {
-
-  //let radioDiv = document.getElementById("radios");
-  //radioDiv.style.display = "none";
   
   let s = document.getElementsByName("prodType");
   let select = s[0];
