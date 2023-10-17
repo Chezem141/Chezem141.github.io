@@ -35,7 +35,7 @@ function updatePrice() {
     }
   });
 
-  //let prodPrice = document.getElementById("prodPrice");
+  let prodPrice = document.getElementById("prodPrice");
   price *= amount.value;;
   prodPrice.innerHTML = price + " рублей";
 }
