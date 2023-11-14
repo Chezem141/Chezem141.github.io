@@ -48,11 +48,11 @@ document.addEventListener("DOMContentLoaded", () => {
             alert('Форма успешно отправлена');
             form.reset();
             localStorage.clear();
-            console.log('Success', response)
+            console.log('Success', response);
         })
-        .catch(function (e) {
+        .catch(function (response) {
             alert('При отправке возникла ошибка');
-            console.error('Fail', e)
+            console.error('Fail', response);
         })
         history.back();
     })
