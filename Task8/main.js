@@ -16,7 +16,7 @@ function recoverVal() {
 
 document.addEventListener("DOMContentLoaded", () => {
     var slapform = new Slapform();
-    let btn = document.getElementById("‎open_button");
+    let btn = document.getElementById("open_button");
     let inpt = document.querySelectorAll("input");
     let form = document.getElementById("form");
     form.style.display = "none";
