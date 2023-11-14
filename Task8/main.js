@@ -44,7 +44,14 @@ document.addEventListener("DOMContentLoaded", () => {
                 message: document.getElementById('message').value
             }
         })
-        .then(function (response) {
+        .then((response) => {
+            if(response.ok) {
+                alert("Форма отправлена");
+                form.reset();
+                localStorage.clear();
+            } else {
+                throw new Error('При отправке возникла ошибка');
+            }
             console.log('Success', response)
         })
         .catch(function (e) {
