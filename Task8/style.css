@@ -1,6 +1,8 @@
 #form {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     margin: auto;
     padding: 2vb;
+    width: 40vw;
 }
