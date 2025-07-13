@@ -18,6 +18,7 @@
 .header-link{
     text-decoration: none;
     font-size: 20px;
+    font-weight: 500;
     color:rgb(255, 0, 0);
 }
 
@@ -64,11 +65,17 @@
     margin-right: 10%;
 }
 
+.carousel-caption-text {
+    text-shadow: 1px 1px 7px black;
+    color: #ff3c00;
+}
+
 .body{
     margin: 0;
     background-image: url("../../source/anonymous-guy-fawkes-mask-meme-7dh90tmvfgd3f30j.jpg");
     background-repeat: repeat;
     background-attachment: fixed;
+    background-size: 40%;
 }
 
 .hype{
@@ -89,4 +96,31 @@
 .ads{
     background-color: rgb(246, 188, 253);
     border-radius: 12px;
+}
+
+.ads-link{
+    text-decoration: none;
+    color: black;
+}
+
+.dossier{
+    background-color: #00ff15;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 4mm ridge rgb(211 220 50 / 0.6);
+}
+
+.dossiers-name{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #0004ff;
+    border-bottom: thick double #32a1ce;
+}
+
+.platon-dossier-images{
+    margin-right: 2%;
+}
+
+.pasha-dossier-images{
+    margin-left: 2%;
 }
