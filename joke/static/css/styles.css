@@ -1,3 +1,31 @@
+.header{
+    background-color: #00ff15;
+}
+
+.header-name{
+    color: #ffd000;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 13%;
+}
+
+.header-links{
+    text-align: right;
+    margin-right: 5%;
+}
+
+.header-link{
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(255, 0, 0);
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+}
+
 .Platon{
     display: block;
     margin: 0 auto;
@@ -56,4 +84,9 @@
 .hype:hover{
     background-image: url("../../source/IMG_20250711_203637_489.jpg");
     background-size: 10%;
+}
+
+.ads{
+    background-color: rgb(246, 188, 253);
+    border-radius: 12px;
 }
