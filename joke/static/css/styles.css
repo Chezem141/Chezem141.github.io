@@ -1,0 +1,59 @@
+.Platon{
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+}
+
+.Platon-width{
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+    height: 500px;
+}
+
+.meme1{
+    display: block;
+    margin: 0 auto;
+}
+
+.meme{
+    width: 100px;
+    height: 100px;
+}
+
+.carousel-control-prev{
+    margin-left: 10%;
+}
+
+.carousel-control-next{
+    margin-right: 10%;
+}
+
+.carousel{
+    background-color: #1f1c1c;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.body{
+    margin: 0;
+    background-image: url("../../source/anonymous-guy-fawkes-mask-meme-7dh90tmvfgd3f30j.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.hype{
+    color: #0004ff;
+    background-color: #df0909c4;
+    margin-left: 34%;
+    margin-right: 34%;
+    font-size: 24px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.hype:hover{
+    background-image: url("../../source/IMG_20250711_203637_489.jpg");
+    background-size: 10%;
+}
