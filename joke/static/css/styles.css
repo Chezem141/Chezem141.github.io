@@ -46,7 +46,7 @@
     margin: 0 auto;
 }
 
-.meme{
+.hype-meme{
     width: 100px;
     height: 100px;
 }
@@ -121,6 +121,16 @@
     margin-right: 2%;
 }
 
-.pasha-dossier-images{
+.pasha-dossier-images, .nikita-dossier-images{
     margin-left: 2%;
+}
+
+.meme{
+    width: 350px;
+    height: 350px;
+}
+
+.memes {
+    display: flex;
+    justify-content: center;
 }
